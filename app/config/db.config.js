@@ -1,5 +1,5 @@
 module.exports = {
-  HOST: "dpg-cf0qgrcgqg45veu7f390-a.oregon-postgres.render.com",
+  HOST: "dpg-cf0qgrcgqg45veu7f390-a",
   USER: "irfan",
   PASSWORD: "YvXjHt9oqjohJly4lWbC0eEQxoH2NRmJ",
   DB: "estore",
