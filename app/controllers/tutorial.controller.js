@@ -16,7 +16,10 @@ exports.create = (req, res) => {
   const tutorial = {
     title: req.body.title,
     description: req.body.description,
-    published: req.body.published ? req.body.published : false
+    mobile: req.body.mobile,
+    email:req.body.email,
+    city:req.body.city
+
   };
 
   // Save Tutorial in the database
