@@ -1,8 +1,9 @@
 module.exports = {
-  HOST: "dpg-cf0qgrcgqg45veu7f390-a",
-  USER: "irfan",
-  PASSWORD: "YvXjHt9oqjohJly4lWbC0eEQxoH2NRmJ",
-  DB: "estore",
+ 
+   HOST: "ep-wispy-cake-a4flimu8.us-east-1.aws.neon.tech:5432",
+  USER: "default",
+  PASSWORD: "HQyD6kMEYq4K",
+  DB: "verceldb",
   dialect: "postgres",
   pool: {
     max: 5,
@@ -10,15 +11,4 @@ module.exports = {
     acquire: 30000,
     idle: 10000
   }
-  //  HOST: "localhost",
-  // USER: "postgres",
-  // PASSWORD: "system",
-  // DB: "estore",
-  // dialect: "postgres",
-  // pool: {
-  //   max: 5,
-  //   min: 0,
-  //   acquire: 30000,
-  //   idle: 10000
-  // }
 };
